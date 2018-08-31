@@ -1,7 +1,7 @@
 {
-  "name": "js13k-boilerplate",
+  "name": "minor-tom",
   "version": "1.0.0",
-  "description": "---",
+  "description": "Minor tom the game. Forked from js13k-boilerplate",
   "main": "src/main.js",
   "scripts": {
     "clean": "rm -rf build/; mkdir -p build",
@@ -15,18 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voronianski-on-games/js13kGames-boilerplate.git"
+    "url": "git+https://github.com/munizart/minor-tom.git"
   },
-  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "author": "Chaos team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/voronianski-on-games/js13kGames-boilerplate/issues"
-  },
-  "homepage": "https://github.com/voronianski-on-games/js13kGames-boilerplate#readme",
   "devDependencies": {
-    "compression-webpack-plugin": "^0.3.1",
+    "compression-webpack-plugin": "^1.1.12",
     "envify": "^3.4.1",
-    "eslint": "^3.3.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-no-class": "^0.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
     "html-webpack-plugin": "^2.22.0",
     "husky": "^0.11.6",
     "stats.js": "^0.16.0",
